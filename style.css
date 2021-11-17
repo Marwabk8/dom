@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-olivewood img{
+ width: 100px ;
+ height: 80px;
+}
+#navbar{
+    width: 40%;
+}
+#navbar ul{
+display: flex;
+justify-content: space-between;
+
+
+}
+#navbar image{
+width: 30px; 
+height: 30px;
+}
+
+li { 
+list-style: none ;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+  
+    
+    #cart img {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    #cart div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        height: auto;
+        border-radius: 30px;
+        margin: 15px;
+        margin-left: 50px;
+    }
+    #cart {
+    
+        padding: 20px;
+        border-radius: 10px;
+  
+        
+    }
+    button {
+        width: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+      
+    }
+    button:hover {
+        cursor:pointer;
+        color: green;
+       
+    }
+    #cart h1 {
+        margin-top: 40px;
+        display: inline;
+        justify-content: center;
+    }
+    
+    #cart span,h2,h1 {
+        text-align: center;
+        color:black;
+    }
+    #cart {
+        margin: 60px;
+    }
+    .plusbtn, .minus {
+        font-size: xx-large;
+         ;
+    }
+    
